@@ -87,7 +87,7 @@ const DataTable = ({data, handleDelete}) => {
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                     <div className="flex space-x-3">
                       <button
-                        onClick={() => handleView(item.id)}
+                        onClick={() => router.push(`/car/${item._id}`)}
                         className="text-blue-600 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-200"
                       >
                         <Eye className="h-5 w-5" />

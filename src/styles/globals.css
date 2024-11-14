@@ -16,8 +16,9 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #202938;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 40px;
 }
 
 @layer utilities {
@@ -25,3 +26,4 @@ body {
     text-wrap: balance;
   }
 }
+

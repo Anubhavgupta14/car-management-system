@@ -4,7 +4,7 @@ import Table from "../components/table"
 import {allList, deleteCar} from "./api/endpoint"
 import toast, { Toaster } from 'react-hot-toast';
 
-const index = () => {
+const Home = () => {
 
   const [data, setData] = useState([])
   const [update, setUpdate] = useState(false)
@@ -42,4 +42,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Home
